@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/media/classroom_bg.png");    
+}
+
+
+.container{
+    background-color:pink;
+}
+
+.form {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+
+  }

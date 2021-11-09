@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "rest-api": "json-server --watch database/data.json"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -18,7 +19,8 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0"
   }
 }
